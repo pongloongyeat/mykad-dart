@@ -1,4 +1,4 @@
-Parses Malaysian Identification Card numbers (MyKad).
+Parses Malaysian Identification Card numbers (MyKad)
 
 ## Installing
 
