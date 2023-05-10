@@ -1,7 +1,5 @@
 extension on num {
-  int roundDownToNearest(int factor) {
-    return (this / factor).floor() * factor;
-  }
+  int roundDownToNearest(int factor) => (this / factor).floor() * factor;
 }
 
 /// The gender of a person.

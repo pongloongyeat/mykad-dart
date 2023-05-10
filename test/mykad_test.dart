@@ -104,9 +104,8 @@ void main() {
 }
 
 extension on DateTime {
-  bool isSameDayAs(DateTime other) {
-    return year == other.year && month == other.month && day == other.day;
-  }
+  bool isSameDayAs(DateTime other) =>
+      year == other.year && month == other.month && day == other.day;
 }
 
 extension IterableX<E> on Iterable<E> {
@@ -143,12 +142,10 @@ class MyKadTestHelper {
   final DateTime birthdate;
   final int age;
 
-  MyKadTestHelper copyWith({String? nric}) {
-    return MyKadTestHelper(
-      nric: nric ?? this.nric,
-      gender: gender,
-      birthdate: birthdate,
-      age: age,
-    );
-  }
+  MyKadTestHelper copyWith({String? nric}) => MyKadTestHelper(
+        nric: nric ?? this.nric,
+        gender: gender,
+        birthdate: birthdate,
+        age: age,
+      );
 }
