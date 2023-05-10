@@ -1,6 +1,6 @@
 name: mykad
 description: Parses Malaysian Identification Card numbers (MyKad)
-version: 1.0.0
+version: 0.0.1
 homepage: https://github.com/pongloongyeat/mykad
 
 environment:
